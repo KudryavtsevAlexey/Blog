@@ -36,8 +36,11 @@ namespace Blog
                     config.Password.RequireUppercase = false;
                     config.Password.RequiredLength = 6;
                 })
-                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>();
+            services.ConfigureApplicationCookie(config =>
+            {
+                config.LoginPath = "/Auth/Login";
+            });
             services.AddTransient<IRepository, Repository>();
             services.AddRazorPages().AddRazorRuntimeCompilation();
         }

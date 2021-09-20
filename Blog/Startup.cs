@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Blog.Data;
+using Blog.Data.FileManager;
 using Blog.Data.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -42,6 +43,7 @@ namespace Blog
                 config.LoginPath = "/Auth/Login";
             });
             services.AddTransient<IRepository, Repository>();
+            services.AddTransient<IFileManager, FileManager>();
             services.AddRazorPages().AddRazorRuntimeCompilation();
         }
 
@@ -53,6 +55,8 @@ namespace Blog
             }
 
             app.UseRouting();
+
+            app.UseStaticFiles();
 
             app.UseAuthentication();
             app.UseAuthorization();

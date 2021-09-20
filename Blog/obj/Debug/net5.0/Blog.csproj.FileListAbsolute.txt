@@ -36,7 +36,6 @@ C:\Users\Lenovo\source\repos\Blog\Blog\obj\Debug\net5.0\Blog.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\Blog\Blog\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Lenovo\source\repos\Blog\Blog\obj\Debug\net5.0\Razor\Views\Home\Post.cshtml.g.cs
 C:\Users\Lenovo\source\repos\Blog\Blog\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\Lenovo\source\repos\Blog\Blog\obj\Debug\net5.0\Razor\Views\Home\Edit.cshtml.g.cs
 C:\Users\Lenovo\source\repos\Blog\Blog\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\Lenovo\source\repos\Blog\Blog\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 C:\Users\Lenovo\source\repos\Blog\Blog\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
